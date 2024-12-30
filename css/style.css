@@ -25,7 +25,7 @@ body {
   font-size: 18px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #161616;
+  color: #16123F;
 }
 
 h1, h2, h3, h4 {
@@ -114,7 +114,7 @@ a:focus {
 
 .button:hover {
   background-color: #75C9B7; /* Turquoise Background on Hover */
-  color: #FFE26A; /* Yellow Text on Hover */
+  color: #5b4900; /* Yellow Text on Hover */
   transform: scale(1.05); /* Slight scaling effect */
   opacity:0.8; /*button class hover and active state*/
   text-decoration:none ;
@@ -367,7 +367,6 @@ Medium devices (640px and larger)
   nav > ul {
     margin: 1em 0;
   }
-    
  
     
 }
