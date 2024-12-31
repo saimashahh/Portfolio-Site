@@ -31,7 +31,7 @@ body {
   background-color: transparent;
 }
 .navbar ul{
-  list-style-type: none;
+  list-style-type: dr;
   background-color:#d0ded8;
   padding: 0px;
   margin: 0px;
@@ -42,9 +42,12 @@ body {
 .navbar a{
   color:#8fb6ab
   text-decoration: none;
-  padding: 15px;
+  padding: 5px;
   display: block;
   text-align: center;
+  margin: 5px;
+  border: 5px;
+
 }
 
 .navbar a:hover{
@@ -92,7 +95,6 @@ h4 {
   font-weight: 400;
   text-align: center;
 }
-
 
 /*setting images to full-width*/
 img {
@@ -291,7 +293,9 @@ padding: 20px;
 /* Layout styling */
 
 .container {
-  padding: 0 15px;
+  width: 100%;
+  padding: 5px 15px;
+  margin:0;
 }
 
 .row {
