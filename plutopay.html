@@ -22,11 +22,15 @@
       <!-- For the navigation and hamburger menu -->
   
       <div class="container">
+       
     <div class="navtoggle" id="myNavtoggle">
-  <img class="logo" src="img/brand/Logo2.png" alt="Saima Shah logo" >
-     <a href="index.html"></a>
-         
-          <nav>
+        <img
+        class="logo"
+        src="img/brand/logo3.png"
+        alt=" Saima Shah UX/UI logo">
+      <a href="index.html"></a>
+
+              <nav>
             <ul class="navigation">
               <li class="active"><a href="index.html">Work</a></li>
               <li><a href="about.html">About</a></li>
@@ -38,22 +42,29 @@
           </div>
       </div>
   </header>
+
     <main>
         <!-- Hero Section -->
         <div id="hero">
             <div class="container">
             <h1>PlutoPay Case Study.</h1>
             <h2><span>Welcome to the UX Design Portfolio for the PlutoPay Project</span></h2>
-            <picture>
-                <source srcset="img/plutoPayimages/design_thinking_usercentric.png" media="(max-width: 767px)">
-                <img src="img/plutoPayimages/design_thinking_usercentric.png" alt="Pluto Pay">
-            </picture>
-        </div>
+                   </div>
         </div>
 
         <!-- Problem Section -->
-        <div id="problem">
+       <nav class="navbar">
+       <ul> 
+        <li><a href="#problem">The Problem</a></li>
+        <li><a href="#process">The Process</a></li>
+        <li><a href="#solution">The Solution</a></li>
+        <li><a href="#design_iteration">Design Iteration</a></li>
+
+       </ul>
+    </nav>
+                 <div id="problem" class="problem">
             <div class="container">
+    
             <h1>The Problem</h1>
             <p>
                 Competitive analysis and research showed that while the financial app market is saturated, it lacks products catering to 'Digital nomads' (19-40 years old).
@@ -67,41 +78,47 @@
         Users need an efficient and secure online payment solution for shopping, travel, money transfers, and budget management.
             </h3>
             <picture>
-                <source srcset="img/plutoPayimages/paypal_swot600px.png" media="(max-width: 767px)">
-                <img src="img/plutoPayimages/paypal_swot1200px.png" alt="PayPal SWOT Analysis">
+                <source srcset="img/plutoPayimages/paypal.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/paypal.png" alt="PayPal SWOT Analysis">
             </picture>
             <picture>
-                <source srcset="img/plutoPayimages/wise_swot600.png" media="(max-width: 767px)">
-                <img src="img/plutoPayimages/wise_swot1200px.png" alt="Wise SWOT Analysis">
+                <source srcset="img/plutoPayimages/wise.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/wise.png" alt="Wise SWOT Analysis">
             </picture>
         </div>
     
 
         <!-- Process Section -->
-        <div id="process">
+        <div id="process" class="section">
             <div class="container">
             <h1>The Process</h1>
-            <h3>
+            The solution was designed iteratively on the framework of design thinking and user experience design as shown below.
+            <picture>
+                <source srcset="img/plutoPayimages/design_thinking_usercentric.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/design_thinking_usercentric.png" alt="Pluto Pay">
+            </picture>
+        
                 The product development process included user research, persona creation, and iterative testing. Tools included card sorting, user interviews, affinity mapping, and wireframe design.
-            </h3>
+            
             <picture>
-                <source srcset="img/plutoPayimages/persona_mike.png" media="(max-width: 767px)">
-                <img src="img/plutoPayimages/persona_mike.png" alt="Persona Mike">
+                <source srcset="img/plutoPayimages/full_persona1.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/full_persona1.png" alt="Persona Mike">
             </picture>
             <picture>
-                <source srcset="img/plutoPayimages/persona_whitney.png" media="(max-width: 767px)">
-                <img src="img/plutoPayimages/persona_whitney.png" alt="Persona Whitney">
+                <source srcset="img/plutoPayimages/full_person2_plutopay.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/full_person2_plutopay.png" alt="Persona Whitney">
             </picture>
         </div>
         </div>
+        
 
         <!-- Affinity Map Section -->
         <div id="affinity-map">
             <div class ="container">
             <h2>Affinity Map</h2>
             <picture>
-                <source srcset="img/plutoPayimages/affinity_map600px.png" media="(max-width: 767px)">
-                <img src="img/plutoPayimages/affinity_map1200px.png" alt="Affinity Map">
+                <source srcset="img/plutoPayimages/affinitymap.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/affinitymap.png" alt="Affinity Map">
             </picture>
         </div>
         </div>
@@ -110,14 +127,13 @@
         <div id="information-architecture">
             <div class ="container">
             <h2>Information Architecture</h2>
-
             <h3>Card Sorting</h3>
             <picture>
-                <source srcset="img/plutoPayimages/card_sorting.jpg" media="(max-width: 767px)">
-                <img src="img/plutoPayimages/card_sorting.jpg" alt="Card Sorting">
+                <source srcset="img/plutoPayimages/card_sorting.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/card_sorting.png" alt="Card Sorting">
             </picture>
 
-            <h3>User Flows</h3>
+            <h3 style="margin-top: 20px;">User Flows</h3>
             <h4>Onboarding</h4>
             <picture>
                 <source srcset="img/plutoPayimages/userflow_onboarding.png" media="(max-width: 767px)">
@@ -139,11 +155,60 @@
         <div id="solution">
         <div class="container">
             <h1>The Solution</h1>
+            <h3>
+                Hi Fi Prototype is available on Figma 
+                <a href="https://www.figma.com/proto/saT5dTyO9YIZtZAQLaLy2h/PlutoPay-Design?node-id=4367-2614&starting-point-node-id=4367%3A2614&t=IKeX5gY5ITlNKkcO-1">
+                  Click here
+                </a>
+              </h3>
+              
             <h2>Mid-Fidelity Wireframes</h2>
             <picture>
-                <source srcset="img/plutoPayimages/mid_fi_wireframes.png" media="(max-width: 767px)">
-                <img src="img/plutoPayimages/mid_fi_wireframes.png" alt="Mid-Fidelity Wireframes">
+                <source srcset="img/plutoPayimages/mid_fi_wireframes1.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/mid_fi_wireframes1.png" alt="Mid-Fidelity Wireframes">
             </picture>
+
+            <picture>
+                <source srcset="img/plutoPayimages/mid-fi-wireframes2.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/mid-fi-wireframes2.png" alt="Mid-Fidelity Wireframes 2">
+            </picture>
+            <div id="design_iteration">
+            <h2>Design Iteration</h2>
+            <picture>
+                <source srcset="img/plutoPayimages/designIteration/2_factor_auth.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/designIteration/2_factor_auth.png" alt="2 factor designIteration">
+            </picture>
+            <picture>
+                <source srcset="img/plutoPayimages/designIteration/add_bank.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/designIteration/add_bank.png" alt="2 factor designIteration">
+            </picture>
+            <picture>
+                <source srcset="img/plutoPayimages/designIteration/add_cc.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/designIteration/add_cc.png" alt="2 factor designIteration">
+            </picture>
+            <picture>
+                <source srcset="img/plutoPayimages/designIteration/budget.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/designIteration/budget.png" alt="2 factor designIteration">
+            </picture>
+            <picture>
+                <source srcset="img/plutoPayimages/designIteration/homescreen.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/designIteration/homescreen.png" alt="2 factor designIteration">
+            </picture>
+            <picture>
+                <source srcset="img/plutoPayimages/designIteration/success.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/designIteration/success.png" alt="2 factor designIteration">
+            </picture>
+            <picture>
+                <source srcset="img/plutoPayimages/designIteration/welcome_signup.png" media="(max-width: 767px)">
+                <img src="img/plutoPayimages/designIteration/welcome_signup.png" alt="2 factor designIteration">
+            </picture>
+            <nav class="navbar">
+                <ul> 
+                 <li><a href="#problem">The Problem</a></li>
+                 <li><a href="#process">The Process</a></li>
+                 <li><a href="#solution">The Solution</a></li>
+                 <li><a href="#design_iteration">Design Iteration</a></li>
+        </div>
         </div>
         </div>
         </div>
@@ -154,6 +219,7 @@
   
 	<footer id="contact">
 		<div class="container">
+            
             <h2>Get in touch</h2>
             <p>Do you like my work and want to discuss opportunities? Please get in touch.</p> 
             <p>Prefer sending an email?</p>
